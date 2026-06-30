@@ -1,90 +1,93 @@
 # ⚡ Shanu — Machine Learning Engineer & Software Developer Portfolio
 
-A modern, premium portfolio website built with pure HTML, CSS & JavaScript — featuring a dark glassmorphism design, smooth animations, and interactive elements.
+A premium, modern single-page portfolio website showcasing expertise in Machine Learning, Generative AI, AI automation, and robust backend engineering. Built with pure HTML, CSS, and JavaScript featuring a sleek dark glassmorphism design.
 
-![Portfolio Preview](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=githubpages&logoColor=white)](https://shanusingh07.github.io/Portfolio/)
+[![GitHub Repo](https://img.shields.io/badge/Repository-View-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shanusingh07/Portfolio)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](#)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+
+---
+
+## 🔗 Live Link
+Explore the live website here: **[https://shanusingh07.github.io/Portfolio/](https://shanusingh07.github.io/Portfolio/)**
 
 ---
 
 ## ✨ Features
 
-- 🌑 **Dark Glassmorphism Theme** — Sleek dark navy background with cyan-to-purple gradients
-- ⌨️ **Typing Animation** — Dynamic hero text cycling through specializations
-- 🎯 **Scroll Reveal Animations** — Smooth fade-in effects as you scroll
-- 🔗 **Particle Background** — Interactive canvas-based particle network effect
-- 📱 **Fully Responsive** — Optimized for desktop, tablet, and mobile
-- 🍔 **Mobile Navigation** — Hamburger menu with smooth transitions
-- 📬 **Contact Form** — Integrated with mailto for direct email communication
-- 🧭 **Active Nav Highlighting** — Navigation links highlight based on scroll position
-- 🎨 **Custom Scrollbar** — Gradient-styled scrollbar matching the theme
+- 🌑 **Dark Glassmorphism Theme** — Sleek dark navy background with cyan-to-purple gradients.
+- ⌨️ **Typing Animation** — Dynamic hero text cycling through specializations (Machine Learning, Gen AI, Backend).
+- 🎯 **Scroll Reveal Animations** — Smooth fade-in and slide-up effects triggered on scroll.
+- 🔗 **Particle Background** — Interactive canvas-based particle network effect that reacts to resize.
+- 📱 **Fully Responsive Layout** — Tailored experience for desktop, tablet, and mobile devices.
+- 🍔 **Mobile Navigation** — Interactive hamburger overlay menu with smooth transitions.
+- 📬 **Contact Form** — Direct email communication using integrated mailto handler.
+- 🧭 **Active Nav Highlighting** — Sidebar/Navbar links update automatically based on active page viewport section.
+- 🎨 **Custom Scrollbar** — Styled with gradients matching the theme design tokens.
+
+---
 
 ## 📂 Project Structure
 
 ```
 Portfolio/
-├── index.html          # Main HTML — all 7 sections
-├── styles.css          # Complete design system & styling
-├── script.js           # Animations, interactions & effects
-├── assets/
+├── index.html          # Main HTML structure with 7 core sections
+├── styles.css          # Design system, CSS variables, layout & animations
+├── script.js           # IntersectionObserver, typing animations, particle effects
+├── assets/             # Media and static assets
 │   ├── project-health-ai.png
 │   ├── project-analytics.png
 │   └── project-resume-ai.png
-└── README.md
+└── README.md           # Professional repository documentation
 ```
+
+---
 
 ## 🖥️ Sections
 
-| # | Section | Description |
+| # | Section | Key Details |
 |---|---------|-------------|
-| 1 | **Hero** | Full-screen intro with typing effect, CTA buttons & code block visual |
-| 2 | **About** | Professional summary with stats & code-editor themed card |
-| 3 | **Skills** | 5 categorized skill cards — Languages, AI, Backend, Data, DevOps |
-| 4 | **Experience** | Timeline layout for professional experience |
-| 5 | **Projects** | Featured project cards with images, tech tags & descriptions |
-| 6 | **Education** | University details & certification badges |
-| 7 | **Contact** | Contact form + social links |
+| 1 | **Hero** | Personal intro, animated typing effect, quick social links, and code block visual |
+| 2 | **About** | Professional summary, statistics counters, and custom JSON-editor card |
+| 3 | **Skills** | Specialized tags for Languages, Machine Learning & Gen AI, Backend, Data, and DevOps |
+| 4 | **Experience** | Professional chronological timeline detailing role, company, and project highlights |
+| 5 | **Projects** | Showcases key engineering projects with image cards, tech tags, and source links |
+| 6 | **Education** | Academic background, GPA, and professional certifications |
+| 7 | **Contact** | Integrated message form for direct collaboration queries |
 
-## 🚀 Getting Started
+---
 
-### Option 1: Open Directly
-Simply double-click `index.html` to open in your browser.
+## 🌐 Deployment & Hosting
 
-### Option 2: Live Server (VS Code)
-1. Install the **Live Server** extension in VS Code
-2. Right-click `index.html` → **Open with Live Server**
+The website is fully optimized for cloud deployment as a static site. Here are the configuration steps:
 
-### Option 3: Python HTTP Server
-```bash
-cd Portfolio
-python -m http.server 8000
-```
-Then visit `http://localhost:8000`
+### GitHub Pages (Recommended Deployment)
+1. Go to your GitHub repository Settings.
+2. In the left sidebar, click **Pages** (under *Code and automation*).
+3. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
+4. Set the **Branch** to `main` and the folder to `/ (root)`, then click **Save**.
+5. Your portfolio will go live within seconds at your GitHub Pages domain.
 
-## 🌐 Deployment
+### Vercel / Netlify
+1. Log in to your Vercel/Netlify dashboard using your GitHub account.
+2. Import the `Portfolio` repository.
+3. Click **Deploy** (no build settings required as this is a pure static site).
 
-Since this is a static website, you can deploy it completely for free in under a minute:
+---
 
-### Option 1: GitHub Pages (Recommended)
-1. Go to your GitHub repository: [github.com/shanusingh07/Portfolio](https://github.com/shanusingh07/Portfolio)
-2. Click on **Settings** (tab at the top).
-3. In the left sidebar under *Code and automation*, click on **Pages**.
-4. Under **Build and deployment** -> **Branch**, select `main` and `/ (root)`, then click **Save**.
-5. Wait 1-2 minutes. Your website will be live at: `https://shanusingh07.github.io/Portfolio/`!
+## 🛠️ Tech Stack & Utilities
 
-### Option 2: Vercel / Netlify
-1. Log in to [Vercel](https://vercel.com/) using your GitHub account.
-2. Click **Add New** → **Project** and select your `Portfolio` repository.
-3. Keep default settings and click **Deploy**. Vercel will provide a custom domain and SSL automatically.
+- **Markup & Layout**: HTML5 (semantic structure, SEO meta-tags)
+- **Styling**: Vanilla CSS3 (custom design system, glassmorphism layers, flexbox/grid, keyframes)
+- **Interactions**: Vanilla JavaScript (Canvas API, Intersection Observer, native DOM manipulation)
+- **Icons**: Lucide Icons CDN
+- **Fonts**: Space Grotesk, Inter, Fira Code (via Google Fonts)
 
-## 🛠️ Tech Stack
+---
 
-- **HTML5** — Semantic structure with SEO meta tags
-- **CSS3** — Custom properties, glassmorphism, keyframe animations, responsive design
-- **JavaScript** — IntersectionObserver, Canvas API, DOM manipulation
-- **Google Fonts** — Inter, Space Grotesk, Fira Code
-- **Lucide Icons** — Modern SVG icon library
-
-## 📧 Contact
+## 📧 Contact & Links
 
 - **Email**: ss5644shanu@gmail.com
 - **LinkedIn**: [linkedin.com/in/shanu19](https://linkedin.com/in/shanu19)

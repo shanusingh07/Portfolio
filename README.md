@@ -1,4 +1,4 @@
-# ⚡ Shanu — Portfolio Website
+# ⚡ Shanu — Machine Learning Engineer & Software Developer Portfolio
 
 A modern, premium portfolio website built with pure HTML, CSS & JavaScript — featuring a dark glassmorphism design, smooth animations, and interactive elements.
 

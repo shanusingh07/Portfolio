@@ -114,9 +114,10 @@ function initTypingAnimation() {
   if (!typingElement) return;
 
   const texts = [
+    'Machine Learning Engineer',
+    'Aspiring Gen AI Engineer',
     'AI Automation Engineer',
     'Backend Developer',
-    'Data Analytics Enthusiast',
     'Python & FastAPI Specialist',
     'OpenAI API Integrator',
     'Problem Solver'

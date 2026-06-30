@@ -60,6 +60,22 @@ python -m http.server 8000
 ```
 Then visit `http://localhost:8000`
 
+## 🌐 Deployment
+
+Since this is a static website, you can deploy it completely for free in under a minute:
+
+### Option 1: GitHub Pages (Recommended)
+1. Go to your GitHub repository: [github.com/shanusingh07/Portfolio](https://github.com/shanusingh07/Portfolio)
+2. Click on **Settings** (tab at the top).
+3. In the left sidebar under *Code and automation*, click on **Pages**.
+4. Under **Build and deployment** -> **Branch**, select `main` and `/ (root)`, then click **Save**.
+5. Wait 1-2 minutes. Your website will be live at: `https://shanusingh07.github.io/Portfolio/`!
+
+### Option 2: Vercel / Netlify
+1. Log in to [Vercel](https://vercel.com/) using your GitHub account.
+2. Click **Add New** → **Project** and select your `Portfolio` repository.
+3. Keep default settings and click **Deploy**. Vercel will provide a custom domain and SSL automatically.
+
 ## 🛠️ Tech Stack
 
 - **HTML5** — Semantic structure with SEO meta tags
